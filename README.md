@@ -1,7 +1,7 @@
-# Set up your project
+# Set up project
 
 0.Clone this git repository
-    * In your profile > settings > SSH Keys confirm you have set up an SSH Key for Github. If not, then set up SSH access to github. [Connecting to GitHub with SSH](https://help.github.com/enterprise/2.6/user/articles/connecting-to-github-with-ssh/)
+    * In profile > settings > SSH Keys confirm you have set up an SSH Key for Github. If not, then set up SSH access to github. [Connecting to GitHub with SSH](https://help.github.com/enterprise/2.6/user/articles/connecting-to-github-with-ssh/)
 
 1.Install Node.js (v8.1.4 or above)
 
@@ -52,16 +52,6 @@ To prevent bad commits, we can configure pre-commit hooks to ensure that unit te
         "precommit": "npm test"
     },
     ```
-
-## Configure your IDE [Optional]
-
-## IntelliJ
-
-In Preferences:
-
-1. Under Language & Frameworks > JavaScript, set your JavaScript language version to "ECMAScript 6".
-
-2. Under Language & Frameworks > JavaScript > Libraries, download and enable both `jest` and `node`.
 
 ## Explore the canary test
 
