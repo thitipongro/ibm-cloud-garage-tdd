@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/thitipongro/ibm-cloud-garage-tdd#readme",
   "devDependencies": {
+    "@babel/plugin-transform-modules-commonjs": "^7.12.1",
     "husky": "^4.3.0",
     "jest": "^26.4.2"
   }
