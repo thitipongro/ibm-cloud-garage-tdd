@@ -1,3 +1,3 @@
-const fahrenheitToCelsius = () => 0;
+const fahrenheitToCelsius = fahrenheit => (fahrenheit - 32) * 5 / 9;
 
 export { fahrenheitToCelsius };
