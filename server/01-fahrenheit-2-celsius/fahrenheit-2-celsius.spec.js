@@ -1,5 +1,4 @@
-// eslint-disable-next-line no-unused-vars
-const { fahrenheitToCelsius } = require('./fahrenheit-2-celsius');
+// import modules
 
 describe('the fahrenheit-2-celsius canary spec', () => {
   it('shows the infrastructure works', () => {
