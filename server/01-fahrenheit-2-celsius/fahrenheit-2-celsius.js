@@ -1,3 +1,3 @@
-const fahrenheitToCelsius = () => { };
+const fahrenheitToCelsius = () => 0;
 
-export default { fahrenheitToCelsius };
+export { fahrenheitToCelsius };
