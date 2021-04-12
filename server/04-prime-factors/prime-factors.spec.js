@@ -1,7 +1,7 @@
 const findPrimeFactors = number => {
   let factors = [];
   if (number > 1) {
-    if (number % 2 === 0) {
+    while (number % 2 === 0) {
       factors.push(2);
       number /= 2;
     }
@@ -35,7 +35,11 @@ describe('a prime factors function should', () => {
   it('return 2, 3 for 6', () => {
     expect(findPrimeFactors(6)).toEqual([2,3]);
   });
-  it.todo('return 7 for 7');
-  it.todo('return 2, 2, 2 for 8');
+  it('return 7 for 7', () => {
+    expect(findPrimeFactors(7)).toEqual([7]);
+  });
+  it('return 2, 2, 2 for 8', () => {
+    expect(findPrimeFactors(8)).toEqual([2,2,2]);
+  });
   it.todo('return 3, 3 for 9');
 });
